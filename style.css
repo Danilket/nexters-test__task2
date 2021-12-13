@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.users {
+	margin: 15px 15px 0 15px;
+	font-family: Helvetica;
+}
+
+.user {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	padding: 15px 10px;
+	border-radius: 15px;
+	background: lightgrey;
+}
+
+.user__title {
+	margin-bottom: 10px;
+}
+
+.user__email {
+	margin-bottom: 5px;
+}
